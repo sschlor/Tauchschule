@@ -147,6 +147,11 @@
     <Content Include="Content\Bootstrap\bootstrap.css" />
     <Content Include="Content\Bootstrap\bootstrap.min.css" />
     <Content Include="Content\Bootstrap\simple-sidebar.css" />
+    <Content Include="Content\images\Brevets\arge.gif" />
+    <Content Include="Content\images\Brevets\idic.gif" />
+    <Content Include="Content\images\Brevets\pdic.gif" />
+    <Content Include="Content\images\Brevets\ssi.gif" />
+    <Content Include="Content\images\Brevets\vit.gif" />
     <Content Include="Content\images\Favicon.png" />
     <Content Include="Content\images\Home\schnupper.jpg" />
     <Content Include="Content\images\Home\schule1.jpg" />
@@ -155,6 +160,7 @@
     <Content Include="Content\images\IMG_2726.jpg" />
     <Content Include="Content\images\unterwasser-meer-ozean-tauchen-sonne-gross.jpg" />
     <Content Include="Content\images\_DSC02744.JPG" />
+    <Content Include="Content\Sites\brevets.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />

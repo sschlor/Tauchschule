@@ -70,7 +70,6 @@ C:\Users\Daniel\Documents\homepage\Homepage\Homepage\obj\Debug\Homepage.pdb
 C:\Users\Stefan\Documents\Tauchschule\Homepage\Homepage\bin\Antlr3.Runtime.pdb
 C:\Users\Stefan\Documents\Tauchschule\Homepage\Homepage\bin\System.Web.Optimization.xml
 C:\Jürgen\Schule\5.Klasse\PRE\Projekt\Homepage\Homepage\obj\Debug\Homepage.csprojResolveAssemblyReference.cache
-C:\Users\Juergen\Documents\GitHub\Tauchschule\Homepage\obj\Debug\Homepage.csprojResolveAssemblyReference.cache
 C:\Users\Juergen\Documents\GitHub\Tauchschule\Homepage\bin\Homepage.dll.config
 C:\Users\Juergen\Documents\GitHub\Tauchschule\Homepage\bin\Homepage.dll
 C:\Users\Juergen\Documents\GitHub\Tauchschule\Homepage\bin\Homepage.pdb
@@ -106,3 +105,4 @@ C:\Users\Juergen\Documents\GitHub\Tauchschule\Homepage\bin\de\System.Web.WebPage
 C:\Users\Juergen\Documents\GitHub\Tauchschule\Homepage\bin\de\System.Web.WebPages.Razor.resources.dll
 C:\Users\Juergen\Documents\GitHub\Tauchschule\Homepage\obj\Debug\Homepage.dll
 C:\Users\Juergen\Documents\GitHub\Tauchschule\Homepage\obj\Debug\Homepage.pdb
+C:\Users\Juergen\Documents\GitHub\Tauchschule\Homepage\obj\Debug\Homepage.csprojResolveAssemblyReference.cache
