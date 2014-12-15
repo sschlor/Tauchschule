@@ -15,6 +15,10 @@
     @Styles.Render("~/Content/Bootstrap/bootstrap.css")
     @Styles.Render("~/Content/Bootstrap/simple-sidebar.css")
     @Styles.Render("~/Content/site.css")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrapjs")
+    @RenderSection("scripts", required: false)
 </head>
 <body>
 
@@ -72,12 +76,5 @@
         </div>
         <!-- /#page-content-wrapper -->
     </div>
-
-    
-    
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrapjs")
-    @RenderSection("scripts", required: false)
 </body>
 </html>
