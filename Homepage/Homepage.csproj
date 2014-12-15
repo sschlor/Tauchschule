@@ -153,6 +153,10 @@
     <Content Include="Content\images\Home\schule2.jpg" />
     <Content Include="Content\images\Home\schule4.jpg" />
     <Content Include="Content\images\IMG_2726.jpg" />
+    <Content Include="Content\images\Teacher\asperrer.jpg" />
+    <Content Include="Content\images\Teacher\doblinger.jpg" />
+    <Content Include="Content\images\Teacher\harry.jpg" />
+    <Content Include="Content\images\Teacher\maurus.jpg" />
     <Content Include="Content\images\unterwasser-meer-ozean-tauchen-sonne-gross.jpg" />
     <Content Include="Content\images\_DSC02744.JPG" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
