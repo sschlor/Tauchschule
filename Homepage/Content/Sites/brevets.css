@@ -1,0 +1,9 @@
+#images {
+    background-color : #003366;
+}
+#ssi {
+    border: 2px solid black;
+}
+#ssi tr td{
+    border: 1px solid black;
+    }
