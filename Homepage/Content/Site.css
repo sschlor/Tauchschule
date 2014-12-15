@@ -3,6 +3,7 @@
 
 body {
     background-image: url(/Content/images/unterwasser-meer-ozean-tauchen-sonne-gross.jpg);
+    background-attachment:fixed;
     color: #fff;
     background-size: 100%;
     background-attachment: fixed;
