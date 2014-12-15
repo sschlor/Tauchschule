@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tauchbücher</h2>
+
+<body data-spy="scroll" data-target="#affix-nav">
+    <div class="container">
+        <div class="row">
+            <nav id="affix-nav" class="sidebar col-md-4">
+                <ul class="nav sidenav" data-spy="affix" data-offset-top="10">
+                    <li class="active">
+
+                        @Html.ActionLink("Schnorcheln", "Snorkling")
+
+                        <ul class="nav">
+
+                            <li> @Html.ActionLink("Tauchausbildung", "DiveTraining")</li>
+                            <li> @Html.ActionLink("Tauchpioniere", "DivingExperts")</li>
+                            <li> @Html.ActionLink("Tauchmedizin", "DivingMedicine")</li>
+                            <li> @Html.ActionLink("Spezialausbildungen", "SpecialEducation")</li>
+                            <li> @Html.ActionLink("Tauchreiseführer", "DivingGuide")</li>
+                            <li> @Html.ActionLink("Herausragende Tauchziele", "DivingGoals")</li>
+                            <li> @Html.ActionLink("Unterwasserführer(Gebiete)", "UnderwaterGuide")</li>
+                            <li> @Html.ActionLink("Bestimmungsbücher(Arten)", "IdentificationHGuides")</li>
+                            <li> @Html.ActionLink("Rund ums Tauchen", "AroundDiving")</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+</body>

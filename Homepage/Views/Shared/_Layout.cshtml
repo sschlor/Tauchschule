@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="shortcut icon" href="~/Content/images/Favicon.png" type="image/png" />
+    <link rel="icon" href="~/Content/images/Favicon.png" type="image/png" />
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @Styles.Render("~/Content/Bootstrap/bootstrap-theme.css")
+    @Styles.Render("~/Content/Bootstrap/bootstrap.css")
+    @Styles.Render("~/Content/Bootstrap/simple-sidebar.css")
+    @Styles.Render("~/Content/site.css")
+</head>
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" >
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="/Home/Index">
+                        Tauchschule
+                    </a>
+                </li>
+                <li>
+                    <a href="/Brevets/Index">Tauchbrevets</a>
+                </li>
+                <li>
+                    <a href="/Lehrer/Index">Tauchlehrer</a>
+                </li>
+                <li>
+                    <a href="/Location/Index">Tauchplätze</a>
+                </li>
+                <li>
+                    <a href="/Calender/Index">Kalender</a>
+                </li>
+                <li>
+                    <a href="/Gallery/Index">Galerie</a>
+                </li>
+                <li>
+                    <a href="/Rent/Index">Verleih</a>
+                </li>
+                <li>
+                    <a href="/Books/Index">Tauchbücher</a>
+                </li>
+                <li>
+                    <a href="/Hersteller/Index">Unsere Hersteller</a>
+                </li>
+                <li>
+                    <a href="/Link/Index">Nützliche Links</a>
+                </li>
+                <li>
+                    <a href="/Contact/Index">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+
+    
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrapjs")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,10 @@
+﻿#page-content-wrapper {
+}
+
+body {
+    background-image: url(/Content/images/unterwasser-meer-ozean-tauchen-sonne-gross.jpg);
+    color: #fff;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    vertical-align: top;
+}
