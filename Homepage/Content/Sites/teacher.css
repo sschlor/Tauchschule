@@ -1,0 +1,18 @@
+﻿div .platzhalter {
+    clear: both;
+    height: 20px;
+}
+
+div .bild {
+    float: left;
+}
+
+div .beschreibung {
+    margin-left: 180px;
+}
+
+td {
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right: 5px;
+}

@@ -42,6 +42,12 @@ namespace Homepage
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
 
+            bundles.Add(new StyleBundle("~/Content/Sites/Brevets").Include(
+                "~/Content/Sites/brevets.css"));
+
+            bundles.Add(new StyleBundle("~/Content/Sites/Teacher").Include(
+                        "~/Content/Sites/teacher.css"));
+
 
         }
     }

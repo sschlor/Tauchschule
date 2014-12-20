@@ -62,12 +62,12 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     background: rgba(255,255,255,0.2);
 }
 
@@ -83,11 +83,11 @@
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #fff;
+    color: #000;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: #000;
     background: none;
 }
 

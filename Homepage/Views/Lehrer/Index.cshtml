@@ -3,17 +3,115 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@section scripts{
+    @Styles.Render("~/Content/Sites/Teacher")
+}
+
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8">
             <h2>Unsere Tauchlehrer</h2>
 
-            <div style="float:left">
-                <img src="~/Content/"
+            <p>Unsere Tauchlehrer haben eine jahrelange Erfahrung in der Ausbildung und ein umfangreiches Fachwissen auf dem Gebiet des Tauchsports. Ob beim ersten Schnuppertauchgang, beim <a class="hyperlink" href="@Url.Action("Index","Home")">Grundschein</a> oder bei den weiterführenden Brevets – auf diese Jungs kannst du dich verlassen.</p>
+            <p>Da nur ein gutausgebildeter Taucher auch ein sicherer Taucher ist, bitten wir viele <a class="hyperlink" href="@Url.Action("Index","Home")">Sonderbrevets</a> zur Weiterbildung an: Navigation, Nachttauchen, Tieftauchen, Trockentauchen, Ausrüstung und Technik, Wracktauchen, Nitroxtauchen, Unterwasserfotografie, Suchen und Bergen…</p>
+            <p>Profitieren kannst du jedoch nicht nur von den angebotenen Schulungen. Bei gemeinsamen Tauchgängen, Urlauben und beim <a class="hyperlink" href="@Url.Action("Index","Home")">„Taucherstammtisch“</a> bieten sich immer wieder Möglichkeiten, von erfahreneren Kollegen Tipps zu bekommen.</p>
+
+            <div class="bild">
+                <img src="~/Content/images/Teacher/asperrer.png" />
+            </div>
+            <div class="beschreibung">
+                <h4>Andreas Sperrer</h4>
+                <table>
+                    <tr>
+                        <td>
+                            <p>
+                                geb. 1900<br />
+                                verheiratet, 22 Kinder
+                            </p>
+                            <p>
+                                A-4921 Hohenzell<br />
+                                Roith 7<br />
+                                Tel. 07752 / 81097<br />
+                                Mobil 0699 / 17810971
+                            </p>
+
+                        </td>
+                        <td>
+                            <p>
+                                aktiver Taucher seit 1985<br />
+                                IDIC Instructor Trainer<br />
+                                SSI DIVECON Instructor
+                            </p>
+                            <p>e-mail: <a class="hyperlink" href="mailto:j.doblinger@doma.at">j.doblinger@doma.at</a></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="platzhalter">
+            </div>
+
+            <div class="bild">
+                <img src="~/Content/images/Teacher/doblinger.jpg" />
+            </div>
+            <div class="beschreibung">
+                <h4>Hans Doblinger</h4>
+                <table>
+                    <tr>
+                        <td>
+                            <p>
+                                geb. 1961<br />
+                                verheiratet, 2 Kinder
+                            </p>
+                            <p>
+                                A-4921 Hohenzell<br />
+                                Roith 7<br />
+                                Tel. 07752 / 81097<br />
+                                Mobil 0699 / 17810971
+                            </p>
+                            <p>e-mail: <a class="hyperlink" href="mailto:j.doblinger@doma.at">j.doblinger@doma.at</a></p>
+                        </td>
+                        <td>
+                            <p>
+                                aktiver Taucher seit 1985<br />
+                                IDIC Instructor Trainer<br />
+                                SSI DIVECON Instructor
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+
+
+
+            </div>
+            <div class="platzhalter">
+            </div>
+
+            <div class="bild">
+                <img src="~/Content/images/Teacher/harry.jpg" />
+            </div>
+            <div class="beschreibung">
+                <h4>Harry</h4>
+                <p>1965</p>
+            </div>
+            <div class="platzhalter">
+            </div>
+
+            <div class="bild">
+                <img src="~/Content/images/Teacher/maurus.jpg" />
+            </div>
+            <div class="beschreibung">
+                <h4>Maurus</h4>
+                <p>1965</p>
+            </div>
+            <div class="platzhalter">
             </div>
 
 
         </div>
-        <div class="col-md-3"></div>
+        <div class="col-md-2"></div>
     </div>
 </div>

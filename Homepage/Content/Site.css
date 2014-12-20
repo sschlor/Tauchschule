@@ -4,8 +4,17 @@
 body {
     background-image: url(/Content/images/unterwasser-meer-ozean-tauchen-sonne-gross.jpg);
     background-attachment:fixed;
-    color: #fff;
+    color: #000;
     background-size: 100%;
     background-attachment: fixed;
     vertical-align: top;
+}
+
+.hyperlink{
+    color: #fff;
+}
+
+.hyperlink:hover{
+    color: #fff;
+    text-decoration: underline;
 }

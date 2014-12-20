@@ -3,27 +3,34 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Tauchbrevets</h2>
-<div class="container-fluid">
-    <div>
-        Vom Grundschein bis zum Tauchlehrer steht Ihnen jede Ausbildung offen. <br />
-        Werden die Prüfungen positiv absolviert, bekommen Sie ein international gültiges Tauchzertifikat, mit dem überall auf der Welt bei Tauchgängen, Tauchausfahrten usw. teilgenommen werden kann.
+@section scripts{
+    @Styles.Render("~/Content/Sites/Brevets")
+}
 
-        Anfragen jederzeit unter: 07752/ 81097-50 oder 0699/ 17810971
-        oder schicken Sie uns eine <span class="a">j.doblinger@doma.at</span>
-    </div>
-    <br />
-    <br />
+<div class="container-fluid">
     <div class="row">
-        <ul><li>Ausbildungssystem laut <a href="http://www.ssi-germany.de/" target="_blank"><img src="~/Content/images/Brevets/ssi.gif" width="60" height="35" border="0"></a></li></ul>
+        
         <br />
-        <div class="col-md-1"></div>
-        <div class="col-md-11">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h2>Tauchbrevets</h2>
+            <p>
+                Vom Grundschein bis zum Tauchlehrer steht Ihnen jede Ausbildung offen. <br />
+                Werden die Prüfungen positiv absolviert, bekommen Sie ein international gültiges Tauchzertifikat, mit dem überall auf der Welt bei Tauchgängen, Tauchausfahrten usw. teilgenommen werden kann.
+            </p>
+            <p>
+                Anfragen jederzeit unter: 07752/ 81097-50 oder 0699/ 17810971<br />
+                oder schicken Sie uns eine e-mail: <a class="hyperlink" href="mailto:j.doblinger@doma.at">j.doblinger@doma.at</a>.
+            </p>
+
+
+            <ul><li>Ausbildungssystem laut <a href="http://www.divessi.com/" target="_blank"><img src="~/Content/images/Brevets/ssi.gif" width="60" height="35" border="0"></a></li></ul>
+
             <table id="ssi">
                 <tr>
-                    <td align="center" width="36%">Bezeichnung</td>
-                    <td align="center" width="4%">Level</td>
-                    <td align="center" width="60%">Vorraussetzungen/ Einschränkungen</td>
+                    <th align="center" width="34%">Bezeichnung</th>
+                    <th align="center" width="8%">Level</th>
+                    <th align="center" width="58%">Vorraussetzungen/ Einschränkungen</th>
                 </tr>
                 <tr>
                     <td>Passport Diver</td>
@@ -107,6 +114,6 @@
                 </tr>
             </table>
         </div>
+        <div class="col-md-2"></div>
     </div>
 </div>
-<link href="~/Content/Sites/brevets.css" rel="stylesheet" />
