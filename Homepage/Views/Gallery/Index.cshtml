@@ -3,4 +3,29 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Galerie</h2>
+@section scripts{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jQueryUI")
+    @Styles.Render("~/Content/jQueryUI")
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h2>Galerie</h2>
+
+            <div id="accordion">
+                <h3>Fotoalbum</h3>
+                <div>asdfasdf</div>
+                <h3>Unterwasserbilder</h3>
+                <div>adsfasdfasdf</div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+<script>
+    $("#accordion").accordion();
+</script>
