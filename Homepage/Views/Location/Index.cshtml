@@ -1,6 +1,95 @@
 ﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
-}
+    }
+<script src="~/Scripts/jquery-1.11.1.js"></script>
+<script src="~/Scripts/jquery-ui-1.11.2.js"></script>
+<link rel="stylesheet" href="~/Content/themes/base/accordion.css">
 
-<h2>Tauchplätze</h2>
+<div class="container-fluid">
+    <div class="row">
+
+        <br />
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h2>Tauchplätze</h2>
+            
+            <div id="accordion">
+                <h3>Freibacher Stausee (Kärnten)</h3>
+                <div>
+                    <p>
+                        Der Freibacher Stausee liegt in Kärnten inmitten der hohen, schön bewaldeten Berge der Karawanken.
+
+                        Tauchplatz Mühle: Entlang der Unterwasserkante in 7 m Wassertiefe kommt man nach ca. 12 Min. Tauchzeit zur versunkenen Mühle (Sägewerk mit Wasserkraft). Man findet noch Reste vom Lagerbock des Wasserrades und Mauerwerk. Bei guter Sicht kann man den Wasserzulauf mit Schiebern und anderen mechanischen Teilen finden. Tauchzeit bis zum Ausstieg ca. 30 – 40 Min.
+                        Tauchplatz Liegewiese: Vor der Liegewiese befindet sich eine Kante von 2 m bis 11 m Wassertiefe. Bei dieser Kante befindet sich auf 5 m und 10 m Wassertiefe eine Übungsplattform. In der Bucht nördlich des Einstieges hängen viele Äste von Bäumen ins Wasser. An diesen geschützten Stellen findet man tagsüber viele Eiteln (Döbel).
+                        Tauchplatz Westufer: Von der Liegewiese aus taucht man auf das gegenüber liegende Westufer. Nach der Kante auf 13 m Wassertiefe taucht man, bei meist nur mäßiger Sicht und guter Kompassorientierung, ca. 12 Min. bis das Ufer wieder steil ansteigt. Entlang an unterspülten Baumstümpfen, die bis zu einem Meter in das Wasser reichen, findet man im Schutz der Wurzeln viele Fische. Wichtig ist, dass man nicht zu tief taucht. Immer wieder kann man ganze Schwärme von Forellen im Freiwasser beobachten.
+
+
+                        <h4>Informationen:</h4>
+                            Ort: 
+                            Gemeinde Zell
+
+                            Füllstation: 
+                            Informationen, Flaschenfüllungen und sogar geführte Tauchgänge bieten die EasyDivers am Klopeiner See.
+
+                            Tauchzeiten: 
+                            Im Juli und August hat man die besten Sichtweiten.
+
+                            Sichtweiten:
+                            Der Freibacher Stausee ist erstaunlich klar. Die Sichtweite schwankt von 5 bis zu beachtlichen 15 Metern. Wenn es regnet werden Sedimente eingespült und dann braucht es ca. eine Woche bis er wieder klar ist.
+
+                            Tiere/Pflanzen:
+                            Wenig Bewuchs. Schotter und Fels entlang der Ufer und an den flachen Seebodenzonen stark verschlammt. Barsche, Eitel (Döbel), Bachforellen und Seeforellen – wobei man die meisten Fische am Westufer findet.
+                            
+                        <img src="~/Content/images/Location/freibach1.jpg"/>
+                        <img src="~/Content/images/Location/freibach2.jpg" />
+                    </p>
+                </div>
+                <h3>Laghi di Fusine (Italien)</h3>
+                <div>
+                    <p>
+                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                        suscipit faucibus urna.
+                    </p>
+                </div>
+                <h3>Resi-Locka (Oberösterreich)</h3>
+                <div>
+                    <p>
+                        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                    </p>
+                    <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                        <li>List item three</li>
+                    </ul>
+                </div>
+                <h3>Grüner See (Steiermark)</h3>
+                <div>
+                    <p>
+                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                        mauris vel est.
+                    </p>
+                    <p>
+                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                        inceptos himenaeos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $("#accordion").accordion();
+    });
+</script>
